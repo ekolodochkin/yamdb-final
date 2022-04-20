@@ -178,11 +178,3 @@ Password (again):
 * [Docker](https://www.docker.com/)
 * [Gunicorn](https://gunicorn.org/)
 * [Nginx](https://nginx.org/)
-
-## Авторы
-
-
-## Ссылки
-
-Проект доступен по следующей ссылке <http://62.84.114.196/api/v1/>  
-Подробная документация по API размещена по адресу <http://62.84.114.196/redoc/>
