@@ -50,7 +50,8 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ekolodochkin/yamdb_final
+          context: ./api_yamdb/
+          tags: ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
