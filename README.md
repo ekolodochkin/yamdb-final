@@ -53,10 +53,6 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 sudo  docker-compose --version
 ```
-Создайте папку `nginx`:
-```
-mkdir nginx
-```
 ### После успешного деплоя:
 Соберите статические файлы (статику):
 ```
