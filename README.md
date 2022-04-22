@@ -56,16 +56,16 @@ sudo  docker-compose --version
 ### После успешного деплоя:
 Соберите статические файлы (статику):
 ```
-docker-compose exec web python manage.py collectstatic --no-input
+sudo docker-compose exec web python manage.py collectstatic --no-input
 ```
 Примените миграции:
 ```
-docker-compose exec web python manage.py makemigrations
-docker-compose exec web python manage.py migrate --noinput
+sudo docker-compose exec web python manage.py makemigrations
+sudo docker-compose exec web python manage.py migrate --noinput
 ```
 Создайте суперпользователя:
 ```
-docker-compose exec web python manage.py createsuperuser
+sudo docker-compose exec web python manage.py createsuperuser
 
 ```
 ### Пользовательские роли
