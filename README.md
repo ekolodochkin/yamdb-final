@@ -107,6 +107,13 @@ docker-compose exec web python manage.py createsuperuser
 При удалении объекта жанра Genre не удаляться связанные с этим жанром произведения (Title).  
 При удалении объекта отзыва Review будут удалены все комментарии к этому отзыву.
 
+## Ссылки на проект:
+* http://51.250.29.80/api/v1/titles/
+* http://51.250.29.80/api/v1/categories/
+* http://51.250.29.80/api/v1/genres/
+* http://51.250.29.80/admin/
+* http://51.250.29.80/redoc/
+
 ## В разработке использованы
 
 * [Python](https://www.python.org/)
