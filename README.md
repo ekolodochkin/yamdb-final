@@ -111,8 +111,8 @@ sudo docker-compose exec web python manage.py createsuperuser
 * http://51.250.29.80/api/v1/titles/
 * http://51.250.29.80/api/v1/categories/
 * http://51.250.29.80/api/v1/genres/
-* http://51.250.29.80/admin/
 * http://51.250.29.80/redoc/
+* http://51.250.29.80/admin/
 
 ## В разработке использованы
 
