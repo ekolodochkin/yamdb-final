@@ -56,16 +56,16 @@ sudo  docker-compose --version
 ### После успешного деплоя:
 Соберите статические файлы (статику):
 ```
-docker-compose exec web python manage.py collectstatic --no-input
+sudo docker-compose exec web python manage.py collectstatic --no-input
 ```
 Примените миграции:
 ```
-docker-compose exec web python manage.py makemigrations
-docker-compose exec web python manage.py migrate --noinput
+sudo docker-compose exec web python manage.py makemigrations
+sudo docker-compose exec web python manage.py migrate --noinput
 ```
 Создайте суперпользователя:
 ```
-docker-compose exec web python manage.py createsuperuser
+sudo docker-compose exec web python manage.py createsuperuser
 
 ```
 ### Пользовательские роли
@@ -106,6 +106,13 @@ docker-compose exec web python manage.py createsuperuser
 При удалении объекта категории Category не удаляться связанные с этой категорией произведения (Title).  
 При удалении объекта жанра Genre не удаляться связанные с этим жанром произведения (Title).  
 При удалении объекта отзыва Review будут удалены все комментарии к этому отзыву.
+
+## Ссылки на проект:
+* http://51.250.29.80/api/v1/titles/
+* http://51.250.29.80/api/v1/categories/
+* http://51.250.29.80/api/v1/genres/
+* http://51.250.29.80/admin/
+* http://51.250.29.80/redoc/
 
 ## В разработке использованы
 
