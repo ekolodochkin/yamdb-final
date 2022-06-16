@@ -113,14 +113,3 @@ sudo docker-compose exec web python manage.py createsuperuser
 * http://51.250.29.80/api/v1/genres/
 * http://51.250.29.80/redoc/
 * http://51.250.29.80/admin/
-
-## В разработке использованы
-
-* [Python](https://www.python.org/)
-* [Django](https://www.djangoproject.com/)
-* [Django REST framework](https://www.django-rest-framework.org/)
-* [DRF Simple JWT](https://django-rest-framework-simplejwt.readthedocs.io/en/latest/)
-* [PostgreSQL](https://www.postgresql.org/)
-* [Docker](https://www.docker.com/)
-* [Gunicorn](https://gunicorn.org/)
-* [Nginx](https://nginx.org/)
